@@ -341,7 +341,7 @@ if __name__ == "__main__":
     print(f"Dataset directory: {dataset_dir}")
     print(f"Test directory: {test_dir}")
     img_size = 32
-    use_otsu = False
+    use_otsu = True
 
     net = HammingNetworkTrafficSigns(
         img_size=img_size, num_patterns=3, dataset_dir=dataset_dir
